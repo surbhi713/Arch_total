@@ -7,6 +7,7 @@ import { BrowserRouter,Routes,Route} from "react-router-dom";
 import About from './Components/About';
 import projects from './Components/projects';
 import Services from './Components/Services';
+import Footer from './pages/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path='/pro' Component={projects}/>
       <Route path='/services' Component={Services}/>
     </Routes>
+    <Footer/>
     </BrowserRouter>
   )
 }

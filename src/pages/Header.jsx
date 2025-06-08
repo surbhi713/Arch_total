@@ -35,12 +35,12 @@ function Header() {
     },
   ]
   return (
-    <nav className='flex justify-between items-center bg-[#f3f3f3]
+    <nav className='flex justify-between items-center bg-gray-800
    gap-4 lg:px-20 px-4 py-3 sticky top-0 z-30'>
 
     {/* logo */}
         <div id='logo'>
-        <img src={logo} alt="company logo"  className='w-[120px] lg:w-[150px]'/>
+        <img src={logo} alt="company logo"  className='w-[120px] invert lg:w-[150px]'/>
         </div>
 
     {/* navitems */}
@@ -48,7 +48,7 @@ function Header() {
             {
                 navItmes.map(({link,path})=>(
                     <Link to={path} key={path} spy={true} smooth={true} offset={-100}
-                    className='text-black text-[15px] font-semibold uppercase cursor-pointer px-3 py-2 rounded-lg
+                    className='text-white text-[15px] font-semibold uppercase cursor-pointer px-3 py-2 rounded-lg
                       hover:bg-red-600 hover:text-white hover:scale-110 transition-transform duration-300'>
                         {link}
                     </Link>
@@ -60,7 +60,7 @@ function Header() {
         <div className='flex  justify-center items-center lg:gap-7  gap-4'>
         <div className='flex justify-between items-center lg:gap-7 gap-3'>
           <FaPhoneAlt className='size-5 text-red-700'/>
-          <h1 className='text-sm font-semibold text-black lg:text-xl'  >
+          <h1 className='text-sm font-semibold text-white lg:text-xl'  >
             98674 82978
           </h1>
         </div>

@@ -35,7 +35,7 @@ function Header() {
     },
   ]
   return (
-    <nav className='flex justify-between items-center bg-gray-800
+    <nav className='flex justify-between items-center bg-zinc-800
    gap-4 lg:px-20 px-4 py-3 sticky top-0 z-30'>
 
     {/* logo */}
@@ -49,7 +49,7 @@ function Header() {
                 navItmes.map(({link,path})=>(
                     <Link to={path} key={path} spy={true} smooth={true} offset={-100}
                     className='text-white text-[15px] font-semibold uppercase cursor-pointer px-3 py-2 rounded-lg
-                      hover:bg-red-600 hover:text-white hover:scale-110 transition-transform duration-300'>
+                      hover:bg-emerald-700 hover:text-white hover:scale-110 transition-transform duration-300'>
                         {link}
                     </Link>
                 ))

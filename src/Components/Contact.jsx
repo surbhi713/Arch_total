@@ -41,16 +41,16 @@ function Contact() {
     
             <h3  className="text-2xl font-semibold flex"> <FaMapMarkerAlt className="text-red-500 m-2" />Address</h3>
             <p>
-              123, Business Street,<br />
-              Mumbai, Maharashtra, 400001<br />
+              29/6 A-1 Block,<br />
+              Sant Nagar, Burari,<br />
+              New Delhi - 110084,<br />
               India
             </p>
 
             <h3 className="text-2xl font-semibold flex"> <FaPhoneAlt className='text-red-500 m-2'/> Phone</h3>
-            <p>+91 98674 82978</p>
-            <p>+91 8346346</p>
+            <p>+91 9899992526 ,+91 9599162526</p>
             <h3 className="text-2xl font-semibold flex"> <FaEnvelope className='text-red-500 m-2'/> Email</h3>
-            <p>info@example.com</p>
+            <p>archcs2010@gmail.com</p>
           </div>
 
           {/* Form Section */}

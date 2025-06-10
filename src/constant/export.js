@@ -6,27 +6,27 @@ export const service =[{
     image: bg
 },
 {
-    name:'Furniture Work',
+    name:'Interior Wood Work',
     desc:'jfbhjkebvjk',
     image: bg
 },
 {
-    name:'Civil Work',
+    name:'Infrastructure',
     desc:'jfbhjkebvjk',
     image: bg
 },
 {
     name:'Branding',
+    desc:'Branding creates a distinct identity for a business in the minds of your target audience and the general population',
+    image: bg
+},
+{
+    name:'Floor Designing',
     desc:'jfbhjkebvjk',
     image: bg
 },
 {
-    name:'Flooring Work',
-    desc:'jfbhjkebvjk',
-    image: bg
-},
-{
-    name:'LED Boards',
+    name:'LED Singage',
     desc:'jfbhjkebvjk',
     image: bg
 },
@@ -36,7 +36,7 @@ export const service =[{
     image: bg
 },
 {
-    name:'ACP Work',
+    name:'ACP Cladding',
     desc:'jfbhjkebvjk',
     image: bg
 },

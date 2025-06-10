@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from "../assets/logo.png"
+import logo from "../assets/Screenshot (27).png"
 import {Link} from 'react-router-dom'
 import {FaPhoneAlt,FaUserCircle } from "react-icons/fa";
 import {FaXmark,FaBars} from "react-icons/fa6";
@@ -40,7 +40,7 @@ function Header() {
 
     {/* logo */}
         <div id='logo'>
-        <img src={logo} alt="company logo"  className='w-[120px] invert lg:w-[150px]'/>
+        <img src={logo} alt="company logo"  className='w-[120px] rounded-md lg:w-[150px]'/>
         </div>
 
     {/* navitems */}
